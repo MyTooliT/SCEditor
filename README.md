@@ -24,9 +24,9 @@ This repository contains a slightly modified copy of ([**the released version**]
 # Notes
 
 - Please **do not do what I did here** 😅
-- This is just a quick and dirty way to provide an editor that supports the [alternative BB code syntax for lists](https://helpdesk.bitrix24.com/open/8948499/) (that Bitrix24 uses) for a coworker
+- This is just a **quick and dirty** way to provide an editor that supports the [alternative BB code syntax for lists](https://helpdesk.bitrix24.com/open/8948499/) (that Bitrix24 uses) for a coworker
 - I am **not** a web developer
-- I know my (mostly) copy and pasted code is most probably absolutely horrible 😇
+- I know my (mostly) **copy and pasted code is most probably absolutely horrible** 😇
 
 ---
 
