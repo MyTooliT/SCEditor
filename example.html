@@ -10,6 +10,7 @@
 		<script src="minified/sceditor.min.js"></script>
 		<script src="minified/icons/monocons.js"></script>
 		<script src="minified/formats/bbcode.js"></script>
+		<script src="minified/plugins/alternative-lists.js"></script>
 
 		<style>
 			html {
@@ -78,6 +79,7 @@
 		<script>
 			var textarea = document.getElementById('example');
 			sceditor.create(textarea, {
+				plugins: 'alternative-lists',
 				format: 'bbcode',
 				icons: 'monocons',
 				style: 'minified/themes/content/default.min.css'
