@@ -6,7 +6,7 @@
 		<title>SCEditor Demo</title>
 
 		<link rel="stylesheet" href="minified/themes/default.min.css" id="theme-style" />
-		  
+
 		<script src="minified/sceditor.min.js"></script>
 		<script src="minified/icons/monocons.js"></script>
 		<script src="minified/formats/bbcode.js"></script>
@@ -43,15 +43,21 @@
 	<body>
 		<form action="" method="post">
 			<div>
-				<textarea id="example" style="height:300px;width:600px;">[center][size=3][b]BBCode SCEditor[/b][/size][/center]
+				<textarea id="example" style="height:300px;width:600px;">
+[B]Alternative Lists[/B]
 
-Give it a try! :)
+[list=1]
+[*] One
+[*] Two
+[*] Three
+[/list]
 
-[color=#ff00]Red text! [/color][color=#3399ff]Blue?[/color]
-
-[ul][li]A simple list[/li][li]list item 2[/li][/ul]
-
-Just type [b]:[/b]) and it should be converted into :) as you type.</textarea>
+[list]
+[*] One
+[*] Two
+[*] Three
+[/list]
+				</textarea>
 
 			</div>
 
