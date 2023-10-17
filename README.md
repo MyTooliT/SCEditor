@@ -18,7 +18,7 @@ This repository contains a slightly modified copy of ([**the released version**]
 **Alternatively** you can just download `Online.html`:
 
 1. Click [here](https://raw.githubusercontent.com/MyTooliT/SCEditor/main/Online.html)
-2. Save the file somewhere
+2. Save the file as `SCEditor.html`
 3. Open the downloaded file in your favorite browser
 
 # Notes
