@@ -1,0 +1,49 @@
+<!--
+  Original Sources :) :
+  - https://github.com/samclarke/SCEditor/issues/866
+  - https://stackoverflow.com/questions/11089540/textarea-height-100
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>SCEditor</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/themes/default.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/sceditor.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/formats/bbcode.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/formats/xhtml.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/plugins/autoyoutube.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/plugins/alternative-lists.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/plugins/autosave.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/plugins/dragdrop.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/plugins/plaintext.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/plugins/undo.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/icons/material.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sceditor@latest/minified/icons/monocons.js"></script>
+  <style>
+  html, body {
+    height: 100%;
+  }
+  textarea {
+    width: 100%;
+    height: 98%;
+  }
+  </style>
+</head>
+<body>
+  <textarea id="text" cols="30" rows="15"></textarea>
+</body>
+  <script>
+    var textarea = document.getElementById('text');
+    sceditor.create(textarea, {
+      format: 'bbcode',
+      icons: 'monocons',
+      plugins: 'alternative-lists',
+
+      emoticonsRoot: 'https://cdn.jsdelivr.net/npm/sceditor@latest/',
+      style: 'https://cdn.jsdelivr.net/npm/sceditor@latest/minified/themes/content/default.min.css'
+    });
+  </script>
+</html>
