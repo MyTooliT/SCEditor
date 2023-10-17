@@ -1,6 +1,6 @@
 # Description
 
-This repository contains a slightly modified copy of ([**the released version**](https://github.com/samclarke/SCEditor/releases/download/v3.2.0/sceditor-3.2.0.zip)) of [SCEditor 3.2.0](https://github.com/samclarke/SCEditor/releases/tag/v3.2.0)
+This repository contains a slightly modified copy of ([**the released version**](https://github.com/samclarke/SCEditor/releases/download/v3.2.0/sceditor-3.2.0.zip)) of [SCEditor 3.2.0](https://github.com/samclarke/SCEditor/releases/tag/v3.2.0) with enabled **[`alternative-lists` plugin](https://github.com/samclarke/SCEditor/pull/691)**
 
 # Usage
 
@@ -12,10 +12,14 @@ This repository contains a slightly modified copy of ([**the released version**]
 2. Extract the zip file
 3. Either:
 
-   - Click on [`Online.html`](Online.html) to open a browser window that contains an text area that uses the **current online version of SCEditor** with enabled **[`alternative-lists` plugin](https://github.com/samclarke/SCEditor/pull/691)**
-   - Click on [`Local.html`](Local.html) to open a browser window that contains an text area that uses the **local version of SCEditor** (`3.2.0`) with enabled **[`alternative-lists` plugin](https://github.com/samclarke/SCEditor/pull/691)**
+   - Click on `Online.html` to open a text editor that uses the **current online version of SCEditor**
+   - Click on `Local.html` to open a text editor that uses the **local version of SCEditor** (`3.2.0`)
 
-Alternatively you can just download [`Online.html`](Online.html) and then open the downloaded file in your favorite browser
+**Alternatively** you can just download `Online.html`:
+
+1. Click [here](https://raw.githubusercontent.com/MyTooliT/SCEditor/main/Online.html)
+2. Save the file somewhere
+3. Open the downloaded file in your favorite browser
 
 # Notes
 
